@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OM_travels</title>
+</head>
+<style>
+  *{
+    margin: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  form input{
+    display: flex;
+    width:100%;
+  }
+  p{
+    margin:10px;
+    padding: 5px;
+    color: green;
+  }
+  h3{
+    margin: 10px;
+    text-align: center;
+    color: blueviolet;
+  }
+  input{
+    background-color:#00ff50 ;
+    outline: none;
+    border: none;
+    box-shadow: 2px 1px 10px 2px grey;
+  }
+  #send{
+    text-align: center;
+    background: white;
+    box-shadow: none;
+margin: 10px;
+  }
+  #btn{
+    text-align: center;
+  }
+</style>
+<body bgcolor="#00ff50">
+  <h3>CUSTOMERS CONTACT FORM</h3>
+  <form action="https://formsubmit.co/428d9efe93856da989cfa2f45d064ffc" method="post">
+    <p>FULL NAME</p>
+    <input id="name" type="text" name="fullname" placeholder="FULL NAME" required>
+   <p> E-MAIL ADDRESS</p>
+    <input type="email" name="email" id="mail" placeholder="E-MAIL" required>
+   <p> MOBILE NUMBER</p>
+    <input type="tel" name="phone" id="tel" placeholder="MOBILE NO." required>
+    <p>ADDRESS (PICK UP)</p>
+    <input type="text" name="Pick_up" id="adreess" placeholder="FULL ADRESS " required>
+   <p>ADDRESS (DROP-OFF)</p>
+    <input type="text" name="Drop_off" id="adreess" placeholder="FULL ADRESS " required>
+    <input type="submit" id="send" value="SEND">
+  </form>
+  <div id="btn">  
+  <button id="send"><a  href="contact.html">Back to previous page</a></button>
+</div>
+</body>
+</html>
