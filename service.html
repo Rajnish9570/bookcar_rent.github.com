@@ -7,6 +7,26 @@
   <title>OM_travels</title>
 </head>
 <style>
+  body{
+    animation: change 10s infinite;
+  }
+  @keyframes change {
+    0%{background-color:#ff00ff;}
+    25%{background-color:#e1ffd6 ;}
+    50%{background-color:#ffff00 ;}
+    75%{background-color:#2a0c40 ;}
+    100%{background-color:#bdbfff ;}
+  }
+  input{
+    animation: changeinp 10s infinite;
+  }
+  @keyframes changeinp {
+    0%{background-color:#ffff00;}
+    25%{background-color:#2a0c40;}
+    50%{background-color:#bdbfff;}
+    75%{background-color:#e1ffd6;}
+    100%{background-color:#ff00ff;}
+  }
   *{
     margin: 10px;
     padding: 10px;
@@ -27,7 +47,7 @@
     color: blueviolet;
   }
   input{
-    background-color:#ffffff;
+    background-color: #ffffff;
     outline: none;
     border: none;
     box-shadow: 2px 1px 10px 2px grey;
@@ -61,4 +81,7 @@ margin: 10px;
   <button id="send"><a  href="contact.html">Back to previous page</a></button>
 </div>
 </body>
+<script>
+
+</script>
 </html>
